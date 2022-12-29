@@ -1,9 +1,4 @@
-import {
-  redirect,
-  useActionData,
-  useNavigate,
-  useNavigation,
-} from "react-router-dom";
+import { useActionData, useNavigate, useNavigation } from "react-router-dom";
 
 import NewPostForm from "../components/NewPostForm";
 import { savePost } from "../util/api";
